@@ -1,72 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="1" total="8" passed="6" failed="0" skipped="0">
+<testng-results retried="3" ignored="3" total="12" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-09T12:10:28 IST" name="CRMPRO session" finished-at="2024-05-09T12:12:21 IST" duration-ms="113507">
+  <suite started-at="2024-05-09T13:08:27 IST" name="CRMPRO session" finished-at="2024-05-09T13:10:43 IST" duration-ms="136184">
     <groups>
     </groups>
-    <test started-at="2024-05-09T12:10:28 IST" name="CRMPRO" finished-at="2024-05-09T12:12:21 IST" duration-ms="113507">
+    <test started-at="2024-05-09T13:08:27 IST" name="CRMPRO" finished-at="2024-05-09T13:10:43 IST" duration-ms="136184">
       <class name="com.ecommerce.Test.ProductPageTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:11:07 IST" name="initalization" finished-at="2024-05-09T12:11:12 IST" duration-ms="4369" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:09:21 IST" name="initalization" finished-at="2024-05-09T13:09:28 IST" duration-ms="6748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="logintowebsite()[pri:1, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:11:12 IST" name="logintowebsite" finished-at="2024-05-09T12:11:16 IST" duration-ms="4003" status="PASS">
+        <test-method signature="logintowebsite()[pri:1, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:09:28 IST" name="logintowebsite" finished-at="2024-05-09T13:09:34 IST" duration-ms="5798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintowebsite -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:11:16 IST" name="teardown" finished-at="2024-05-09T12:11:16 IST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:09:34 IST" name="teardown" finished-at="2024-05-09T13:09:34 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:11:16 IST" name="initalization" finished-at="2024-05-09T12:11:21 IST" duration-ms="4855" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:09:34 IST" name="initalization" finished-at="2024-05-09T13:09:40 IST" duration-ms="6084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method retried="true" signature="Verifyproductpage()[pri:2, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:11:21 IST" name="Verifyproductpage" finished-at="2024-05-09T12:11:38 IST" duration-ms="17620" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method retried="true" signature="Verifyproductpage()[pri:2, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:09:40 IST" name="Verifyproductpage" finished-at="2024-05-09T13:09:54 IST" duration-ms="13869" status="SKIP">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element <a href="/product_details/1" style="color: brown;">...</a> is not clickable at point (625, 755). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240507/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CLrz3637_4UDFd4_ewcdxaoEOQ" data-load-complete="true"></iframe>
-  (Session info: chrome=124.0.6367.119)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4056f99894a24a7581f025252f0013dd, clickElement {id=f.B6FB7F7AA249C9600E366082A918489F.d.7CEA3E19D67F75D17DFABDD29A90CAE5.e.129}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\shivs\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61478/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (4056f99894a24a7581f025252f0013dd)] -> xpath: (//a[contains(text(),'View Product')])[1]]
-Session ID: 4056f99894a24a7581f025252f0013dd]]>
+              <![CDATA[expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue & Pink
+Add to cart
+View Product
+Rs. 1200
+Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/product_details/1" style="color: brown;">...</a> is not clickable at point (625, 755). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240507/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271801&amp;client=ca-pub-1677597403311019&amp;fa=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CLrz3637_4UDFd4_ewcdxaoEOQ" data-load-complete="true"></iframe>
-  (Session info: chrome=124.0.6367.119)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4056f99894a24a7581f025252f0013dd, clickElement {id=f.B6FB7F7AA249C9600E366082A918489F.d.7CEA3E19D67F75D17DFABDD29A90CAE5.e.129}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\shivs\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61478/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (4056f99894a24a7581f025252f0013dd)] -> xpath: (//a[contains(text(),'View Product')])[1]]
-Session ID: 4056f99894a24a7581f025252f0013dd
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:58)
+              <![CDATA[java.lang.AssertionError: expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue & Pink
+Add to cart
+View Product
+Rs. 1200
+Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -97,75 +345,805 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verifyproductpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:11:38 IST" name="teardown" finished-at="2024-05-09T12:11:39 IST" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:09:54 IST" name="teardown" finished-at="2024-05-09T13:09:55 IST" duration-ms="1505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:11:39 IST" name="initalization" finished-at="2024-05-09T12:12:01 IST" duration-ms="21450" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:09:55 IST" name="initalization" finished-at="2024-05-09T13:10:02 IST" duration-ms="6340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="Verifyproductpage()[pri:2, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:12:01 IST" name="Verifyproductpage" finished-at="2024-05-09T12:12:21 IST" duration-ms="20190" status="PASS">
+        <test-method retried="true" signature="Verifyproductpage()[pri:2, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:10:02 IST" name="Verifyproductpage" finished-at="2024-05-09T13:10:17 IST" duration-ms="15631" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue & Pink
+Add to cart
+View Product
+Rs. 1200
+Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue & Pink
+Add to cart
+View Product
+Rs. 1200
+Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verifyproductpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T12:12:21 IST" name="teardown" finished-at="2024-05-09T12:12:21 IST" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:10:17 IST" name="teardown" finished-at="2024-05-09T13:10:18 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:10:18 IST" name="initalization" finished-at="2024-05-09T13:10:26 IST" duration-ms="8097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method retried="true" signature="Verifyproductpage()[pri:2, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:10:26 IST" name="Verifyproductpage" finished-at="2024-05-09T13:10:40 IST" duration-ms="13373" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+ Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+ Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+ Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue & Pink
+Add to cart
+View Product
+Rs. 1200
+ Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+ Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+ Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+ Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+ Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+ Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+ Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+ Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue & Pink
+Add to cart
+View Product
+Rs. 1200
+ Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+ Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+ Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+ Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+ Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyproductpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:10:40 IST" name="teardown" finished-at="2024-05-09T13:10:40 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:10:40 IST" name="initalization" finished-at="2024-05-09T13:10:43 IST" duration-ms="3279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="Verifyproductpage()[pri:2, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:10:43 IST" name="Verifyproductpage" finished-at="2024-05-09T13:10:43 IST" duration-ms="93" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [990797f9b7b2076bf33a117ff9bbb9a3, findElement {using=xpath, value=//a[normalize-space()='Signup / Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\shivs\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65456/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 990797f9b7b2076bf33a117ff9bbb9a3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [990797f9b7b2076bf33a117ff9bbb9a3, findElement {using=xpath, value=//a[normalize-space()='Signup / Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\shivs\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65456/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 990797f9b7b2076bf33a117ff9bbb9a3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at TestUtils.SeleniumHelper.elementclick(SeleniumHelper.java:75)
+at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyproductpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-09T13:10:43 IST" name="teardown" finished-at="2024-05-09T13:10:43 IST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ecommerce.Test.ProductPageTest -->
       <class name="com.ecommerce.Test.LoginPageTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:28 IST" name="initalization" finished-at="2024-05-09T12:10:34 IST" duration-ms="5825" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:08:27 IST" name="initalization" finished-at="2024-05-09T13:08:37 IST" duration-ms="9144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="validatelogintext()[pri:1, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:34 IST" name="validatelogintext" finished-at="2024-05-09T12:10:35 IST" duration-ms="941" status="PASS">
+        <test-method signature="validatelogintext()[pri:1, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:08:37 IST" name="validatelogintext" finished-at="2024-05-09T13:08:41 IST" duration-ms="4276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogintext -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:35 IST" name="teardown" finished-at="2024-05-09T12:10:35 IST" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:08:41 IST" name="teardown" finished-at="2024-05-09T13:08:41 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:35 IST" name="initalization" finished-at="2024-05-09T12:10:40 IST" duration-ms="5385" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:08:41 IST" name="initalization" finished-at="2024-05-09T13:08:47 IST" duration-ms="6035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="LoginUserwithcorrectemailandpassword()[pri:2, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:40 IST" name="LoginUserwithcorrectemailandpassword" finished-at="2024-05-09T12:10:45 IST" duration-ms="4711" status="PASS">
+        <test-method signature="LoginUserwithcorrectemailandpassword()[pri:2, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:08:47 IST" name="LoginUserwithcorrectemailandpassword" finished-at="2024-05-09T13:08:55 IST" duration-ms="7391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginUserwithcorrectemailandpassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:45 IST" name="teardown" finished-at="2024-05-09T12:10:45 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:08:55 IST" name="teardown" finished-at="2024-05-09T13:08:55 IST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:45 IST" name="initalization" finished-at="2024-05-09T12:10:49 IST" duration-ms="4117" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:08:55 IST" name="initalization" finished-at="2024-05-09T13:09:01 IST" duration-ms="6523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="LoginUserwithincorrectemailandpassword()[pri:3, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:49 IST" name="LoginUserwithincorrectemailandpassword" finished-at="2024-05-09T12:10:53 IST" duration-ms="3618" status="PASS">
+        <test-method signature="LoginUserwithincorrectemailandpassword()[pri:3, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:09:01 IST" name="LoginUserwithincorrectemailandpassword" finished-at="2024-05-09T13:09:06 IST" duration-ms="4318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginUserwithincorrectemailandpassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T12:10:53 IST" name="teardown" finished-at="2024-05-09T12:10:53 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-09T13:09:06 IST" name="teardown" finished-at="2024-05-09T13:09:06 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ecommerce.Test.LoginPageTest -->
       <class name="com.ecommerce.Test.ContactusPageTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-09T12:10:53 IST" name="initalization" finished-at="2024-05-09T12:10:58 IST" duration-ms="5067" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-09T13:09:06 IST" name="initalization" finished-at="2024-05-09T13:09:11 IST" duration-ms="5468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="clickoncontactus()[pri:1, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-09T12:10:58 IST" name="clickoncontactus" finished-at="2024-05-09T12:11:07 IST" duration-ms="8730" status="PASS">
+        <test-method signature="clickoncontactus()[pri:1, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-09T13:09:11 IST" name="clickoncontactus" finished-at="2024-05-09T13:09:21 IST" duration-ms="9201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickoncontactus -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-09T12:11:07 IST" name="teardown" finished-at="2024-05-09T12:11:07 IST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-09T13:09:21 IST" name="teardown" finished-at="2024-05-09T13:09:21 IST" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

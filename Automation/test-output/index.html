@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-CRMPRO_session" class="navigator-link">
-              <span class="suite-name border-skipped">CRMPRO session</span>
+              <span class="suite-name border-failed">CRMPRO session</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-CRMPRO_session" class="navigator-link ">
-                    <span>C:\Users\shivs\git\repository\Automation\testng.xml</span>
+                    <span>C:\Users\shivs\git\repository\Automation\testng_RT.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,  1 skipped,  6 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,  3 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CRMPRO_session" class="hide-methods failed suite-CRMPRO_session"> (hide)</a> <!-- hide-methods failed suite-CRMPRO_session -->
+                      <a href="#" panel-name="suite-CRMPRO_session" class="show-methods failed suite-CRMPRO_session"> (show)</a> <!-- show-methods failed suite-CRMPRO_session -->
+                    </span>
+                    <div class="method-list-content failed suite-CRMPRO_session">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRMPRO_session" title="com.ecommerce.Test.ProductPageTest" class="method navigator-link" hash-for-method="Verifyproductpage">Verifyproductpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CRMPRO_session -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Retried methods</span>
@@ -101,6 +115,16 @@
                       <a href="#" panel-name="suite-CRMPRO_session" class="show-methods skipped suite-CRMPRO_session"> (show)</a> <!-- show-methods skipped suite-CRMPRO_session -->
                     </span>
                     <div class="method-list-content skipped suite-CRMPRO_session">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRMPRO_session" title="com.ecommerce.Test.ProductPageTest" class="method navigator-link" hash-for-method="Verifyproductpage">Verifyproductpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRMPRO_session" title="com.ecommerce.Test.ProductPageTest" class="method navigator-link" hash-for-method="Verifyproductpage">Verifyproductpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-CRMPRO_session" title="com.ecommerce.Test.ProductPageTest" class="method navigator-link" hash-for-method="Verifyproductpage">Verifyproductpage</a> <!-- method navigator-link -->
@@ -123,11 +147,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CRMPRO_session" title="com.ecommerce.Test.LoginPageTest" class="method navigator-link" hash-for-method="LoginUserwithincorrectemailandpassword">LoginUserwithincorrectemailandpassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CRMPRO_session" title="com.ecommerce.Test.ProductPageTest" class="method navigator-link" hash-for-method="Verifyproductpage">Verifyproductpage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -157,6 +176,49 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CRMPRO_session" class="panel CRMPRO_session">
+          <div class="suite-CRMPRO_session-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ecommerce.Test.ProductPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyproductpage">
+                  </a> <!-- Verifyproductpage -->
+                  <span class="method-name">Verifyproductpage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [990797f9b7b2076bf33a117ff9bbb9a3, findElement {using=xpath, value=//a[normalize-space()=&apos;Signup / Login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\shivs\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65456/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 990797f9b7b2076bf33a117ff9bbb9a3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at TestUtils.SeleniumHelper.elementclick(SeleniumHelper.java:75)
+	at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRMPRO_session-class-failed -->
           <div class="suite-CRMPRO_session-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -168,29 +230,445 @@
                   <a name="Verifyproductpage">
                   </a> <!-- Verifyproductpage -->
                   <span class="method-name">Verifyproductpage</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/product_details/1&quot; style=&quot;color: brown;&quot;&gt;...&lt;/a&gt; is not clickable at point (625, 755). Other element would receive the click: &lt;iframe id=&quot;aswift_1&quot; name=&quot;aswift_1&quot; style=&quot;width: 728px !important; height: 90px !important; display: block; margin: 0px auto;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;728&quot; height=&quot;90&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20240507/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=1&amp;amp;ifi=2&amp;amp;uci=a!2&amp;amp;btvi=1&quot; data-google-container-id=&quot;a!2&quot; tabindex=&quot;0&quot; title=&quot;Advertisement&quot; aria-label=&quot;Advertisement&quot; data-google-query-id=&quot;CLrz3637_4UDFd4_ewcdxaoEOQ&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
-  (Session info: chrome=124.0.6367.119)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4056f99894a24a7581f025252f0013dd, clickElement {id=f.B6FB7F7AA249C9600E366082A918489F.d.7CEA3E19D67F75D17DFABDD29A90CAE5.e.129}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\shivs\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61478/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (4056f99894a24a7581f025252f0013dd)] -&gt; xpath: (//a[contains(text(),&apos;View Product&apos;)])[1]]
-Session ID: 4056f99894a24a7581f025252f0013dd
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-	at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:58)
+                  <div class="stack-trace">java.lang.AssertionError: expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue &amp; Pink
+Add to cart
+View Product
+Rs. 1200
+Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit &amp; Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]
+	at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyproductpage">
+                  </a> <!-- Verifyproductpage -->
+                  <span class="method-name">Verifyproductpage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+ Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+ Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+ Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue &amp; Pink
+Add to cart
+View Product
+Rs. 1200
+ Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+ Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit &amp; Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+ Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+ Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+ Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]
+	at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyproductpage">
+                  </a> <!-- Verifyproductpage -->
+                  <span class="method-name">Verifyproductpage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [ALL PRODUCTS] but found [ALL PRODUCTS
+Rs. 500
+Blue Top
+Add to cart
+View Product
+Rs. 400
+Men Tshirt
+Add to cart
+Rs. 400
+Men Tshirt
+Add to cart
+View Product
+Rs. 1000
+Sleeveless Dress
+Add to cart
+View Product
+Rs. 1500
+Stylish Dress
+Add to cart
+View Product
+Rs. 600
+Winter Top
+Add to cart
+View Product
+Rs. 400
+Summer White Top
+Add to cart
+View Product
+Rs. 1000
+Madame Top For Women
+Add to cart
+View Product
+Rs. 700
+Fancy Green Top
+Add to cart
+View Product
+Rs. 499
+Sleeves Printed Top - White
+Add to cart
+View Product
+Rs. 359
+Half Sleeves Top Schiffli Detailing - Pink
+Add to cart
+View Product
+Rs. 278
+Frozen Tops For Kids
+Add to cart
+View Product
+Rs. 679
+Full Sleeves Top Cherry - Pink
+Add to cart
+View Product
+Rs. 315
+Printed Off Shoulder Top - White
+Add to cart
+View Product
+Rs. 478
+Sleeves Top and Short - Blue &amp; Pink
+Add to cart
+View Product
+Rs. 1200
+Little Girls Mr. Panda Shirt
+Add to cart
+View Product
+Rs. 1050
+Sleeveless Unicorn Patch Gown - Pink
+Add to cart
+View Product
+Rs. 1190
+Cotton Mull Embroidered Dress
+Add to cart
+View Product
+Rs. 1530
+Blue Cotton Indie Mickey Dress
+Add to cart
+View Product
+Rs. 1600
+Long Maxi Tulle Fancy Dress Up Outfits -Pink
+Add to cart
+View Product
+Rs. 1100
+Sleeveless Unicorn Print Fit &amp; Flare Net Dress - Multi
+Add to cart
+View Product
+Rs. 849
+Colour Blocked Shirt – Sky Blue
+Add to cart
+View Product
+Rs. 1299
+Pure Cotton V-Neck T-Shirt
+Add to cart
+View Product
+Rs. 1000
+Green Side Placket Detail T-Shirt
+Add to cart
+View Product
+Rs. 1500
+Premium Polo T-Shirts
+Add to cart
+View Product
+Rs. 850
+Pure Cotton Neon Green Tshirt
+Add to cart
+View Product
+Rs. 799
+Soft Stretch Jeans
+Add to cart
+View Product
+Rs. 1200
+Regular Fit Straight Jeans
+Add to cart
+View Product
+Rs. 1400
+Grunt Blue Slim Fit Jeans
+Add to cart
+View Product
+Rs. 2300
+Rose Pink Embroidered Maxi Dress
+Add to cart
+View Product
+Rs. 3000
+Cotton Silk Hand Block Print Saree
+Add to cart
+View Product
+Rs. 3500
+Rust Red Linen Saree
+Add to cart
+View Product
+Rs. 5000
+Beautiful Peacock Blue Cotton Linen Saree
+Add to cart
+View Product
+Rs. 1400
+Lace Top For Women
+Add to cart
+View Product
+Rs. 1389
+GRAPHIC DESIGN MEN T SHIRT - BLUE
+Add to cart
+View Product]
+	at com.ecommerce.Test.ProductPageTest.Verifyproductpage(ProductPageTest.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -217,13 +695,6 @@ Session ID: 4056f99894a24a7581f025252f0013dd
               <span class="class-name">com.ecommerce.Test.ProductPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verifyproductpage">
-                  </a> <!-- Verifyproductpage -->
-                  <span class="method-name">Verifyproductpage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="logintowebsite">
@@ -265,7 +736,7 @@ Session ID: 4056f99894a24a7581f025252f0013dd
         </div> <!-- panel CRMPRO_session -->
         <div panel-name="test-xml-CRMPRO_session" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\shivs\git\repository\Automation\testng.xml</span>
+            <span class="header-content">C:\Users\shivs\git\repository\Automation\testng_RT.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -320,40 +791,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Verifyproductpage')
 data.setCell(0, 2, 'com.ecommerce.Test.ProductPageTest')
-data.setCell(0, 3, 20190);
+data.setCell(0, 3, 15631);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Verifyproductpage')
 data.setCell(1, 2, 'com.ecommerce.Test.ProductPageTest')
-data.setCell(1, 3, 17620);
+data.setCell(1, 3, 13869);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickoncontactus')
-data.setCell(2, 2, 'com.ecommerce.Test.ContactusPageTest')
-data.setCell(2, 3, 8730);
+data.setCell(2, 1, 'Verifyproductpage')
+data.setCell(2, 2, 'com.ecommerce.Test.ProductPageTest')
+data.setCell(2, 3, 13373);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'LoginUserwithcorrectemailandpassword')
-data.setCell(3, 2, 'com.ecommerce.Test.LoginPageTest')
-data.setCell(3, 3, 4711);
+data.setCell(3, 1, 'clickoncontactus')
+data.setCell(3, 2, 'com.ecommerce.Test.ContactusPageTest')
+data.setCell(3, 3, 9201);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'logintowebsite')
-data.setCell(4, 2, 'com.ecommerce.Test.ProductPageTest')
-data.setCell(4, 3, 4003);
+data.setCell(4, 1, 'LoginUserwithcorrectemailandpassword')
+data.setCell(4, 2, 'com.ecommerce.Test.LoginPageTest')
+data.setCell(4, 3, 7391);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'LoginUserwithincorrectemailandpassword')
-data.setCell(5, 2, 'com.ecommerce.Test.LoginPageTest')
-data.setCell(5, 3, 3618);
+data.setCell(5, 1, 'logintowebsite')
+data.setCell(5, 2, 'com.ecommerce.Test.ProductPageTest')
+data.setCell(5, 3, 5798);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validatelogintext')
+data.setCell(6, 1, 'LoginUserwithincorrectemailandpassword')
 data.setCell(6, 2, 'com.ecommerce.Test.LoginPageTest')
-data.setCell(6, 3, 941);
+data.setCell(6, 3, 4318);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatelogintext')
+data.setCell(7, 2, 'com.ecommerce.Test.LoginPageTest')
+data.setCell(7, 3, 4276);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Verifyproductpage')
+data.setCell(8, 2, 'com.ecommerce.Test.ProductPageTest')
+data.setCell(8, 3, 93);
 window.suiteTableData['CRMPRO_session']= { tableData: data, tableDiv: 'times-div-CRMPRO_session'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-CRMPRO_session">
               </div> <!-- times-div-CRMPRO_session -->
             </div> <!-- times-div -->
@@ -386,89 +865,115 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validatelogintext</span>
-                <span class="method-start">5827 ms</span>
+                <span class="method-start">9144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">6784 ms</span>
+                <span class="method-start">13445 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initalization</span>
-                <span class="method-start">7081 ms</span>
+                <span class="method-start">13697 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginUserwithcorrectemailandpassword</span>
-                <span class="method-start">12466 ms</span>
+                <span class="method-start">19732 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">17180 ms</span>
+                <span class="method-start">27127 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initalization</span>
-                <span class="method-start">17414 ms</span>
+                <span class="method-start">27423 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginUserwithincorrectemailandpassword</span>
-                <span class="method-start">21532 ms</span>
+                <span class="method-start">33946 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">25150 ms</span>
+                <span class="method-start">38264 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ecommerce.Test.ContactusPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initalization</span>
-                <span class="method-start">25361 ms</span>
+                <span class="method-start">38542 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">clickoncontactus</span>
-                <span class="method-start">30428 ms</span>
+                <span class="method-start">44010 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">39158 ms</span>
+                <span class="method-start">53218 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.ecommerce.Test.ProductPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initalization</span>
-                <span class="method-start">39429 ms</span>
+                <span class="method-start">53510 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logintowebsite</span>
-                <span class="method-start">43798 ms</span>
+                <span class="method-start">60258 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">47816 ms</span>
+                <span class="method-start">66064 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initalization</span>
-                <span class="method-start">48006 ms</span>
+                <span class="method-start">66341 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verifyproductpage</span>
-                <span class="method-start">52861 ms</span>
+                <span class="method-start">72425 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">70497 ms</span>
+                <span class="method-start">86297 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initalization</span>
-                <span class="method-start">71365 ms</span>
+                <span class="method-start">87802 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verifyproductpage</span>
-                <span class="method-start">92815 ms</span>
+                <span class="method-start">94142 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">113024 ms</span>
+                <span class="method-start">109777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">110607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verifyproductpage</span>
+                <span class="method-start">118704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">132077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">132357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verifyproductpage</span>
+                <span class="method-start">135639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">135739 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
