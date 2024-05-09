@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-02T17:20:54 IST" name="CRMPRO session" finished-at="2024-05-02T17:22:34 IST" duration-ms="100069">
+    <groups>
+    </groups>
+    <test started-at="2024-05-02T17:20:54 IST" name="CRMPRO" finished-at="2024-05-02T17:22:34 IST" duration-ms="100069">
+      <class name="com.ecommerce.Test.ProductPageTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-02T17:21:51 IST" name="initalization" finished-at="2024-05-02T17:21:53 IST" duration-ms="2039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="logintowebsite()[pri:1, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-02T17:21:53 IST" name="logintowebsite" finished-at="2024-05-02T17:22:05 IST" duration-ms="12219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintowebsite -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-02T17:22:05 IST" name="teardown" finished-at="2024-05-02T17:22:05 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-02T17:22:05 IST" name="initalization" finished-at="2024-05-02T17:22:12 IST" duration-ms="7004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="Verifyproductpage()[pri:2, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-02T17:22:12 IST" name="Verifyproductpage" finished-at="2024-05-02T17:22:34 IST" duration-ms="21125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyproductpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-02T17:22:34 IST" name="teardown" finished-at="2024-05-02T17:22:34 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.Test.ProductPageTest -->
+      <class name="com.ecommerce.Test.LoginPageTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:20:54 IST" name="initalization" finished-at="2024-05-02T17:21:11 IST" duration-ms="17021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="validatelogintext()[pri:1, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:21:11 IST" name="validatelogintext" finished-at="2024-05-02T17:21:12 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogintext -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:21:12 IST" name="teardown" finished-at="2024-05-02T17:21:12 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:21:12 IST" name="initalization" finished-at="2024-05-02T17:21:18 IST" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginUserwithcorrectemailandpassword()[pri:2, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:21:18 IST" name="LoginUserwithcorrectemailandpassword" finished-at="2024-05-02T17:21:25 IST" duration-ms="7265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserwithcorrectemailandpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:21:25 IST" name="teardown" finished-at="2024-05-02T17:21:25 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:21:25 IST" name="initalization" finished-at="2024-05-02T17:21:31 IST" duration-ms="5969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginUserwithincorrectemailandpassword()[pri:3, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:21:31 IST" name="LoginUserwithincorrectemailandpassword" finished-at="2024-05-02T17:21:35 IST" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserwithincorrectemailandpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-02T17:21:35 IST" name="teardown" finished-at="2024-05-02T17:21:35 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.Test.LoginPageTest -->
+      <class name="com.ecommerce.Test.ContactusPageTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-02T17:21:35 IST" name="initalization" finished-at="2024-05-02T17:21:41 IST" duration-ms="6146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="clickoncontactus()[pri:1, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-02T17:21:41 IST" name="clickoncontactus" finished-at="2024-05-02T17:21:51 IST" duration-ms="9268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoncontactus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-02T17:21:51 IST" name="teardown" finished-at="2024-05-02T17:21:51 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ecommerce.Test.ContactusPageTest -->
+    </test> <!-- CRMPRO -->
+  </suite> <!-- CRMPRO session -->
+</testng-results>
