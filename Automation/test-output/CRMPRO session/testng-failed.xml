@@ -5,32 +5,15 @@
     <listener class-name="ExtentReports.ExtentReportListener"/>
     <listener class-name="TestUtils.Transformer"/>
   </listeners>
-  <test thread-count="5" parallel="methods" name="CRMPRO(failed)">
+  <test thread-count="5" name="CRMPRO(failed)">
     <classes>
       <class name="com.ecommerce.Test.ProductPageTest">
         <methods>
           <include name="teardown"/>
           <include name="initalization"/>
           <include name="Verifyproductpage"/>
-          <include name="logintowebsite"/>
         </methods>
       </class> <!-- com.ecommerce.Test.ProductPageTest -->
-      <class name="com.ecommerce.Test.LoginPageTest">
-        <methods>
-          <include name="LoginUserwithincorrectemailandpassword"/>
-          <include name="teardown"/>
-          <include name="LoginUserwithcorrectemailandpassword"/>
-          <include name="initalization"/>
-          <include name="validatelogintext"/>
-        </methods>
-      </class> <!-- com.ecommerce.Test.LoginPageTest -->
-      <class name="com.ecommerce.Test.ContactusPageTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="initalization"/>
-          <include name="clickoncontactus"/>
-        </methods>
-      </class> <!-- com.ecommerce.Test.ContactusPageTest -->
     </classes>
   </test> <!-- CRMPRO(failed) -->
 </suite> <!-- Failed suite [CRMPRO session] -->

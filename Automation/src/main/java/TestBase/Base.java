@@ -25,7 +25,7 @@ public class Base {
 	public  Base() throws IOException
 	{
 		 prop= new Properties();
-		 FileInputStream file= new FileInputStream("C:\\Users\\shivs\\eclipse-workspace\\Automation\\src\\main\\java\\com\\Toolsqa\\Config\\config.properties");
+		 FileInputStream file= new FileInputStream("C:\\Users\\shivs\\git\\repository\\Automation\\src\\main\\java\\com\\Toolsqa\\Config\\config.properties");
 		 prop.load(file);
 	}
 	@BeforeMethod
