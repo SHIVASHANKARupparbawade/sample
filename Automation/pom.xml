@@ -131,7 +131,7 @@
                       <version>3.2.5</version>
                       <configuration>
 						  <suiteXmlFiles>
-							  <suiteXmlFile>testng.xml</suiteXmlFile>
+							  <suiteXmlFile>testng_RT.xml</suiteXmlFile>
 						  </suiteXmlFiles>
 					  </configuration>
 				  </plugin>
