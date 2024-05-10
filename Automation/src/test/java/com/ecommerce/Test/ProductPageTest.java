@@ -22,7 +22,7 @@ public class ProductPageTest extends Base {
 	}
 	
 	@Test(priority = 1)
-	public void logintowebsite() throws IOException
+	public void logintowebsitetest() throws IOException
 	{
 		login= new LoginPage(driver);
 		helper= new SeleniumHelper(driver);
@@ -35,7 +35,7 @@ public class ProductPageTest extends Base {
 	}
 	
 	@Test(priority = 2)
-	public void Verifyproductpage() throws IOException, InterruptedException
+	public void Verifyproductpagetest() throws IOException, InterruptedException
 	{
 		login= new LoginPage(driver);
 		helper= new SeleniumHelper(driver);

@@ -18,7 +18,7 @@ public class LoginPageTest extends Base {
 		// TODO Auto-generated constructor stub
 	}
 	@Test(priority=1)
-	public void validatelogintext() throws IOException
+	public void validatelogintexttest() throws IOException
 	{
 		login= new LoginPage(driver);
 		helper= new SeleniumHelper(driver);
@@ -29,7 +29,7 @@ public class LoginPageTest extends Base {
 		Assert.assertEquals(logtext,"Login to your account");
 	}
 	@Test(priority = 2)
-	public void LoginUserwithcorrectemailandpassword() throws IOException
+	public void LoginUserwithcorrectemailandpasswordtest() throws IOException
 	{
 		login= new LoginPage(driver);
 		helper= new SeleniumHelper(driver);
@@ -41,7 +41,7 @@ public class LoginPageTest extends Base {
 		Assert.assertEquals(loggedintext, "Logged in as shankar");
 	}
 	@Test(priority = 3)
-	public void  LoginUserwithincorrectemailandpassword() throws IOException
+	public void  LoginUserwithincorrectemailandpasswordtest() throws IOException
 	{
 		login= new LoginPage(driver);
 		helper= new SeleniumHelper(driver);

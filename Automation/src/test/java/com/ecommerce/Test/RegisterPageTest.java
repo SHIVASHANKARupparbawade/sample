@@ -19,7 +19,7 @@ public class RegisterPageTest extends Base {
 	}
 	
 	@Test(priority = 1)
-	public void validatetitle() throws IOException
+	public void validatetitletest() throws IOException
 	{
 		 helper= new SeleniumHelper(driver);
 		 register= new RegisterPage(driver);
@@ -29,7 +29,7 @@ public class RegisterPageTest extends Base {
 	}
 	
 	@Test(priority = 2)
-	public void validateregisterpage() throws InterruptedException, IOException
+	public void validateregisterpagetest() throws InterruptedException, IOException
 	{
 		 helper= new SeleniumHelper(driver);
 		 register= new RegisterPage(driver);

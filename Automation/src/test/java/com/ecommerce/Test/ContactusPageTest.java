@@ -20,7 +20,7 @@ public class ContactusPageTest extends Base {
 	}
 	
 	@Test(priority = 1)
-	public void clickoncontactus() throws IOException, InterruptedException
+	public void clickoncontactustest() throws IOException, InterruptedException
 	{
 		contact= new ContactUsPage(driver);
 		helper= new SeleniumHelper(driver);
