@@ -5,7 +5,7 @@
 		<listener class-name="TestUtils.Transformer"/>
 		
 	</listeners>
-    <test name="CRMPRO" >
+    <test name="CRMPRO" preserve-order="true" >
         <classes>
             
            
