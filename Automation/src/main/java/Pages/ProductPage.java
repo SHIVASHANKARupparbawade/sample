@@ -21,7 +21,7 @@ public class ProductPage extends Base {
 	@FindBy(xpath="//a[@href='/products']")
 	public WebElement productlink;
 	
-	@FindBy(xpath="//h2[normalize-space()='All Products']")
+	@FindBy(xpath="//h2[contains(.,'All Products')]")
 	public WebElement allproducttext;
 	
 	@FindBy(xpath="//div[@class='productinfo text-center']")
