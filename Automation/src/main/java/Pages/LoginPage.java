@@ -53,7 +53,9 @@ public class LoginPage extends Base {
 	}
 	public void loginwithinvalidcredentials(String email,String pass)
 	{
+		loginemail.clear();
 		loginemail.sendKeys(email);
+		loginpassword.clear();
 		loginpassword.sendKeys(pass);
 		
 	}

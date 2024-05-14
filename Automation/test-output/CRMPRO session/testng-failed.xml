@@ -7,17 +7,10 @@
   </listeners>
   <test thread-count="5" name="CRMPRO(failed)">
     <classes>
-      <class name="com.ecommerce.Test.ProductPageTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="initalization"/>
-          <include name="Verifyproductpage"/>
-        </methods>
-      </class> <!-- com.ecommerce.Test.ProductPageTest -->
       <class name="com.ecommerce.Test.LoginPageTest">
         <methods>
           <include name="teardown"/>
-          <include name="LoginUserwithcorrectemailandpassword"/>
+          <include name="LoginUserwithcorrectemailandpasswordtest"/>
           <include name="initalization"/>
         </methods>
       </class> <!-- com.ecommerce.Test.LoginPageTest -->

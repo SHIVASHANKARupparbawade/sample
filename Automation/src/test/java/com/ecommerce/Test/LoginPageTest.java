@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import Pages.LoginPage;
 import TestBase.Base;
+import TestData.DataProviderClass;
 import TestUtils.SeleniumHelper;
 
 public class LoginPageTest extends Base {
@@ -54,6 +55,18 @@ public class LoginPageTest extends Base {
 		String invalidtext= login.validateinvalidtext();
 		System.out.println(invalidtext);
 		Assert.assertEquals(invalidtext, "Your email or password is incorrect!");
+	}
+	
+	@Test(priority = 4,dataProvider = "logindata",dataProviderClass = DataProviderClass.class)
+	public void loginwithmultipledata(String EmailAddress,String password) throws IOException
+	{
+		System.out.println("EmailAddress: " + EmailAddress + ", Password: " + password);
+		login= new LoginPage(driver);
+		helper= new SeleniumHelper(driver);
+		helper.elementclick(login.signuploginbtn);
+		login.loginwithvalidcredentials(EmailAddress, password);
+		helper.elementclick(login.loginbtn);
+		
 	}
 
 }

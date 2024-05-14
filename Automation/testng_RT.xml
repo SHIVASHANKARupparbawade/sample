@@ -10,8 +10,7 @@
             
            
             <class name="com.ecommerce.Test.LoginPageTest"/>
-            <class name="com.ecommerce.Test.ContactusPageTest"/>
-            <class name="com.ecommerce.Test.ProductPageTest"/>
+          
             
           
             

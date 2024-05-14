@@ -1,89 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results retried="3" ignored="3" total="12" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-10T11:21:00 IST" name="CRMPRO session" finished-at="2024-05-10T11:22:03 IST" duration-ms="63150">
+  <suite started-at="2024-05-14T13:43:23 IST" name="CRMPRO session" finished-at="2024-05-14T13:44:29 IST" duration-ms="66479">
     <groups>
     </groups>
-    <test started-at="2024-05-10T11:21:00 IST" name="CRMPRO" finished-at="2024-05-10T11:22:03 IST" duration-ms="63150">
-      <class name="com.ecommerce.Test.ProductPageTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-10T11:21:37 IST" name="initalization" finished-at="2024-05-10T11:21:41 IST" duration-ms="4457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalization -->
-        <test-method signature="logintowebsitetest()[pri:1, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-10T11:21:41 IST" name="logintowebsitetest" finished-at="2024-05-10T11:21:45 IST" duration-ms="3638" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintowebsitetest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-10T11:21:45 IST" name="teardown" finished-at="2024-05-10T11:21:45 IST" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-10T11:21:45 IST" name="initalization" finished-at="2024-05-10T11:21:49 IST" duration-ms="3961" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalization -->
-        <test-method signature="Verifyproductpagetest()[pri:2, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-10T11:21:49 IST" name="Verifyproductpagetest" finished-at="2024-05-10T11:22:02 IST" duration-ms="12689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verifyproductpagetest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ProductPageTest@231f98ef]" started-at="2024-05-10T11:22:02 IST" name="teardown" finished-at="2024-05-10T11:22:03 IST" duration-ms="1277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ecommerce.Test.ProductPageTest -->
+    <test started-at="2024-05-14T13:43:23 IST" name="CRMPRO" finished-at="2024-05-14T13:44:29 IST" duration-ms="66479">
       <class name="com.ecommerce.Test.LoginPageTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:00 IST" name="initalization" finished-at="2024-05-10T11:21:06 IST" duration-ms="5645" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:23 IST" name="initalization" finished-at="2024-05-14T13:43:29 IST" duration-ms="6287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="validatelogintexttest()[pri:1, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:06 IST" name="validatelogintexttest" finished-at="2024-05-10T11:21:07 IST" duration-ms="1574" status="PASS">
+        <test-method signature="validatelogintexttest()[pri:1, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:29 IST" name="validatelogintexttest" finished-at="2024-05-14T13:43:31 IST" duration-ms="1772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogintexttest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:07 IST" name="teardown" finished-at="2024-05-10T11:21:08 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:31 IST" name="teardown" finished-at="2024-05-14T13:43:31 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:08 IST" name="initalization" finished-at="2024-05-10T11:21:12 IST" duration-ms="4740" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:31 IST" name="initalization" finished-at="2024-05-14T13:43:35 IST" duration-ms="3808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="LoginUserwithcorrectemailandpasswordtest()[pri:2, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:12 IST" name="LoginUserwithcorrectemailandpasswordtest" finished-at="2024-05-10T11:21:17 IST" duration-ms="4508" status="PASS">
+        <test-method retried="true" signature="LoginUserwithcorrectemailandpasswordtest()[pri:2, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:35 IST" name="LoginUserwithcorrectemailandpasswordtest" finished-at="2024-05-14T13:43:35 IST" duration-ms="2" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+loginn cannot be resolved to a variable
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+loginn cannot be resolved to a variable
+
+at com.ecommerce.Test.LoginPageTest.LoginUserwithcorrectemailandpasswordtest(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginUserwithcorrectemailandpasswordtest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:17 IST" name="teardown" finished-at="2024-05-10T11:21:17 IST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:35 IST" name="teardown" finished-at="2024-05-14T13:43:35 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:17 IST" name="initalization" finished-at="2024-05-10T11:21:21 IST" duration-ms="4021" status="PASS">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:35 IST" name="initalization" finished-at="2024-05-14T13:43:40 IST" duration-ms="4670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="LoginUserwithincorrectemailandpasswordtest()[pri:3, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:21 IST" name="LoginUserwithincorrectemailandpasswordtest" finished-at="2024-05-10T11:21:24 IST" duration-ms="3104" status="PASS">
+        <test-method retried="true" signature="LoginUserwithcorrectemailandpasswordtest()[pri:2, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:40 IST" name="LoginUserwithcorrectemailandpasswordtest" finished-at="2024-05-14T13:43:40 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+loginn cannot be resolved to a variable
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+loginn cannot be resolved to a variable
+
+at com.ecommerce.Test.LoginPageTest.LoginUserwithcorrectemailandpasswordtest(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserwithcorrectemailandpasswordtest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:40 IST" name="teardown" finished-at="2024-05-14T13:43:40 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:40 IST" name="initalization" finished-at="2024-05-14T13:43:48 IST" duration-ms="7596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method retried="true" signature="LoginUserwithcorrectemailandpasswordtest()[pri:2, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:48 IST" name="LoginUserwithcorrectemailandpasswordtest" finished-at="2024-05-14T13:43:48 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+loginn cannot be resolved to a variable
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+loginn cannot be resolved to a variable
+
+at com.ecommerce.Test.LoginPageTest.LoginUserwithcorrectemailandpasswordtest(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserwithcorrectemailandpasswordtest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:48 IST" name="teardown" finished-at="2024-05-14T13:43:48 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:48 IST" name="initalization" finished-at="2024-05-14T13:43:53 IST" duration-ms="5221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginUserwithcorrectemailandpasswordtest()[pri:2, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:53 IST" name="LoginUserwithcorrectemailandpasswordtest" finished-at="2024-05-14T13:43:53 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+loginn cannot be resolved to a variable
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+loginn cannot be resolved to a variable
+
+at com.ecommerce.Test.LoginPageTest.LoginUserwithcorrectemailandpasswordtest(LoginPageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserwithcorrectemailandpasswordtest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:53 IST" name="teardown" finished-at="2024-05-14T13:43:53 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:53 IST" name="initalization" finished-at="2024-05-14T13:43:57 IST" duration-ms="3640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginUserwithincorrectemailandpasswordtest()[pri:3, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:43:57 IST" name="LoginUserwithincorrectemailandpasswordtest" finished-at="2024-05-14T13:44:00 IST" duration-ms="2637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginUserwithincorrectemailandpasswordtest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@cb0755b]" started-at="2024-05-10T11:21:24 IST" name="teardown" finished-at="2024-05-10T11:21:24 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:00 IST" name="teardown" finished-at="2024-05-14T13:44:00 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:01 IST" name="initalization" finished-at="2024-05-14T13:44:07 IST" duration-ms="6573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="loginwithmultipledata(java.lang.String,java.lang.String)[pri:4, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:07 IST" name="loginwithmultipledata" data-provider="logindata" finished-at="2024-05-14T13:44:11 IST" duration-ms="3628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qwer@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwert]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithmultipledata -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:11 IST" name="teardown" finished-at="2024-05-14T13:44:11 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:11 IST" name="initalization" finished-at="2024-05-14T13:44:16 IST" duration-ms="5169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="loginwithmultipledata(java.lang.String,java.lang.String)[pri:4, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:16 IST" name="loginwithmultipledata" data-provider="logindata" finished-at="2024-05-14T13:44:20 IST" duration-ms="3721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdfg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithmultipledata -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:20 IST" name="teardown" finished-at="2024-05-14T13:44:20 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:20 IST" name="initalization" finished-at="2024-05-14T13:44:21 IST" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="loginwithmultipledata(java.lang.String,java.lang.String)[pri:4, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:21 IST" name="loginwithmultipledata" data-provider="logindata" finished-at="2024-05-14T13:44:29 IST" duration-ms="8080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zxcv@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcvb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithmultipledata -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.LoginPageTest@76b1e9b8]" started-at="2024-05-14T13:44:29 IST" name="teardown" finished-at="2024-05-14T13:44:29 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ecommerce.Test.LoginPageTest -->
-      <class name="com.ecommerce.Test.ContactusPageTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-10T11:21:24 IST" name="initalization" finished-at="2024-05-10T11:21:28 IST" duration-ms="3257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalization -->
-        <test-method signature="clickoncontactustest()[pri:1, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-10T11:21:28 IST" name="clickoncontactustest" finished-at="2024-05-10T11:21:37 IST" duration-ms="8982" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickoncontactustest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ecommerce.Test.ContactusPageTest@31ea9581]" started-at="2024-05-10T11:21:37 IST" name="teardown" finished-at="2024-05-10T11:21:37 IST" duration-ms="260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ecommerce.Test.ContactusPageTest -->
     </test> <!-- CRMPRO -->
   </suite> <!-- CRMPRO session -->
 </testng-results>
